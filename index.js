@@ -5,6 +5,6 @@ var walkToPark function(dogName,dogBreed){console.log(` Walk ${dogName} the ${do
 var  throwFrisbee function(dogName,dogBreed){console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);}
 var walkHome function(dogName,dogBreed){console.log(`Walk home with ${dogName} the ${dogBreed}`);}
 var unleashDog function(dogName,dogBreed){console.log(`Unleash ${dogName} the ${dogBreed}`);}
- 
+
 const routine= [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 function exerciseDog(dogName, dogBreed){return routine.map}
